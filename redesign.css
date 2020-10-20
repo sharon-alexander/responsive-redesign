@@ -168,7 +168,7 @@ html {
 
 
 
-@media only screen and (max-width: 375px) { /* mobile size */
+@media only screen and (max-width: 400px) { /* mobile size */
 
     .slogan-mobile {
         display: block;
