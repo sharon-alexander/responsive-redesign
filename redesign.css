@@ -1,0 +1,236 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+.logo {
+    display: flex;
+    width: 250px;
+
+}
+.phone {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3%;
+    margin-top: 1%;
+    font-family: "Lato";
+}
+
+.slogan {
+    display: flex;
+    font-family: 'La Belle Aurore';
+    font-size: 40px;
+}
+
+.slogan-mobile {
+    display: none;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    font-family: "Lato";
+}
+
+.navbar-item:hover {
+    background-color: lightgrey;
+}
+
+.main-image {
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+
+.cell {
+    width: calc(100%/3);
+    height: 23vw;
+    object-fit: cover;
+    object-fit: contain;
+    text-align: center;
+  }
+
+
+.img-fluid {
+    height: 100%;
+    width: 100%;
+}
+
+.cell:hover {
+    opacity: 0.7;
+}
+
+.image-text {
+     display: block;
+    justify-content: center;
+    position: absolute;
+    font-family: "Lato";
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    width:33.3%;
+    padding-top: 10%;
+
+  }
+
+.col {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    object-fit: cover;
+    object-fit: contain;
+    font-family: "Lato";
+}
+
+.container {
+    padding: 5%;
+}
+
+.testimonial {
+    font-family: "Lato";
+    font-size: 20px;
+    padding: 5%;
+    text-align: center;
+
+  }
+
+
+.heading {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5%;
+    margin-left: 5%;
+    font-family: 'La Belle Aurore';
+    font-size: 40px;
+
+  }
+
+.navbar-toggler-icon {
+    display: flex;
+    font-size: 20px;
+}
+
+.navbar-toggler-icon:hover {
+    border-color: black;
+}
+
+.fa {
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+
+@media only screen and (max-width: 767px) { /* tablet size */
+	.slogan{
+		font-size: 20px;
+    }
+    
+    .logo {
+        width: 150px;
+    }
+
+    .phone {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 3%;
+        margin-top: 1%;
+        font-family: "Lato";
+        font-size: 14px;
+    }
+
+    .navbar-nav {
+        font-size: 13px;
+    }
+
+    .cell {
+        width: 50%;
+        height: 33vw;
+        object-fit: cover;
+        object-fit: contain;
+      }
+
+
+
+
+@media only screen and (max-width: 375px) { /* mobile size */
+
+    .slogan-mobile {
+        display: block;
+        font-family: "La Belle Aurore";
+        font-size: 16px;
+    }
+    
+    .logo {
+        width: 80px;
+    }
+
+    .phone {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 3%;
+        margin-top: 1%;
+        font-family: "Lato";
+        font-size: 10px;
+    }
+
+    .cell {
+        width: 100%;
+        height: 60vw;
+        object-fit: cover;
+        object-fit: contain;
+    }
+
+    .grid {
+        flex-direction: column;
+      }
+
+    .col {
+        width: 100%;
+        object-fit: cover;
+        object-fit: contain;
+        text-align: center;
+    }
+
+
+    .testimonial {
+        font-family: "Lato";
+        font-size: 20px;
+        padding: 10%;
+        text-align: center;
+  
+    }
+
+    .image-text {
+        /* display: block; */
+        /* justify-content: center; */
+        position: absolute;
+        font-family: "Lato";
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        margin: auto;
+        width:50%;
+        transform: translate(50%, 12.5%);
+    
+      }
+
+
+
+
+}

@@ -1,0 +1,239 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <title>website redesign</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <!-- top navbar -->
+  <nav class="navbar navbar-expand-sm navbar-light bg-light text-info">
+    <div class="container-fluid">
+      <a class="navbar-brand">
+        <h1>&hearts; </h1>
+      </a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="navbar-item"> my stuff </li>
+          <li class="navbar-item"> just me </li>
+          <li class="navbar-item"> resume </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- title -->
+  <div class="title">
+    website redesign - a series
+  </div>
+
+  <!-- project menu -->
+  <div class="project-menu">
+    <nav class="navbar navbar-expand-sm navbar-light text-info">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="navbar-item"> <a class="nav-link text-info" href="#context">context </a></li>
+            <li class="navbar-item"> <a class="nav-link text-info" href="#usability-access">usability + accessibility
+              </a></li>
+            <li class="navbar-item"> <a class="nav-link text-info" href="#lofi">low-fidelity wireframing</a></li>
+            <li class="navbar-item"> <a class="nav-link text-info" href="#hifi">high-fidelity prototyping</a></li>
+            <li class="navbar-item"> <a class="nav-link text-info" href="#style-guide">visual design style guide</a>
+            </li>
+            <li class="navbar-item"> <a class="nav-link text-info" href="#redesign">redesign</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- context -->
+  <div class="subtitle" id="context">
+    context
+  </div>
+  <div class="paragraph">
+    <p>
+      This morning, as I was making coffee, I heard my roommate let out a sigh of frustration.<br><br>
+      “What’s wrong?”, I asked her.<br><br>
+      “Ugh I’ve been trying to submit this thing on this website for hours and it just doesn’t work!”<br><br>
+      Let’s face it, we’ve all experienced problems like these in the past. Whether it’s a website that doesn’t
+      work properly, or you can’t seem to find what you’re looking for, or maybe the website is just straight up
+      ugly.<br><br>
+      In this article, I’m going to walk you through how I redesigned a website. I’ll start by discussing the problems
+      with
+      the original website, then move on to low-fidelity and high-fidelity prototyping, and then show you the final
+      product.
+      This is the website that we're going to be redesigning <a href="http://dancenewyorkiowa.com/" style="color: teal">
+        (link to website here)</a>
+    </p>
+
+  </div>
+  <div class="image">
+    <img src="old-website.jpg" width="500" alt="old-website">
+  </div>
+  <div class="paragraph">
+    <p>
+      Let’s get started!
+    </p>
+  </div>
+
+
+  <!-- usability/accessibility-->
+  <div class="subtitle" id="usability-access">
+    usability + accessibility
+  </div>
+  <div class="heading">
+    <b> usability issues with the old website:</b>
+  </div>
+  <div class="summary">
+    <ul>
+      <li>Lacking consistency: too many different font sizes but no text hierarchy. Text is in too many colors and bad
+        color combinations. Some text is randomly
+        underlined, bolded, or italicized. Not enough padding and whitespace between specific elements </li>
+      <li>Website is not responsive i.e. its appearance does not adapt to the screen size or the device that it is
+        viewed on </li>
+      <li>No structure/columns/grid - text is randomly dispersed around the page</li>
+      <li> Poor contrast between bright blue navigation bar and background</li>
+      <li>A lot of text at the bottom of the page</li>
+      <li>Facebook icon is stretched</li>
+      <li> Poor quality images </li>
+    </ul>
+  </div>
+  <div class="heading">
+    <b> accessibility issues with the old website: </b>
+  </div>
+  <div class="summary">
+    <ul>
+      <li>Missing language: language is needed to allow screen readers to read content in appropriate language</li>
+      <li>No page regions or ARIA landmarks defined: This makes it difficult for a screen reader to know in which order
+        to read the content </li>
+      <li> Underlined text does not link to anywhere, even though underlines universally indicate linked text</li>
+      <li>Some text are heading elements but not true headings</li>
+    </ul>
+  </div>
+
+  <!-- lofi wireframing -->
+  <div class="subtitle" id="lofi">
+    low-fidelity wireframing
+  </div>
+  <div class="paragraph">
+    <p>
+      First, I used balsamiq to create low-fidelity wireframes for a desktop, tablet, and mobile device. 
+    </p>
+  </div>
+
+  <div class="heading">
+    <b> desktop wireframe</b>
+  </div>
+  <div class="image">
+    <img src="lofi-desktop.png" width="800" alt="lofi-desktop">
+  </div>
+  <div class="heading">
+    <b> <br>tablet wireframe</b>
+  </div>
+  <div class="image">
+    <img src="lofi-tablet.png" width="800" alt="lofi-tablet">
+  </div>
+  <div class="heading">
+    <b> <br>mobile wireframe</b>
+  </div>
+  <div class="image">
+    <img src="lofi-mobile.png" width="1000" alt="lofi-mobile">
+  </div>
+
+  <!-- hifi prototyping-->
+  <div class="subtitle" id="hifi">
+    high-fidelity prototyping
+  </div>
+  <div class="paragraph">
+    <p>
+      Then, I used figma to create high-fidelity prototypes for a desktop, tablet, and mobile device. 
+    </p>
+  </div>
+  <div class="heading">
+    <b> desktop prototype</b>
+  </div>
+  <div class="image">
+    <img src="desktop.svg" width="1000" alt="hifi-desktop">
+  </div>
+  <div class="heading">
+    <b> <br>tablet prototype</b>
+  </div>
+  <div class="image">
+    <img src="tablet.svg" width="1000" alt="hifi-tablet">
+  </div>
+  <div class="heading">
+    <b> <br>mobile prototype</b>
+  </div>
+  <div class="image">
+    <img src="mobile.svg" width="1000" alt="hifi-mobile">
+  </div>
+
+
+  <!-- visual design style guide-->
+  <div class="subtitle" id="style-guide">
+    visual design style guide
+  </div>
+  <div class="image">
+    <img src="visual-design-guide.svg" alt="visual-design-guide">
+
+  </div>
+
+  <!-- redesign link-->
+  <div class="subtitle" id="redesign">
+    redesign
+  </div>
+  <div class="paragraph">
+    <p>
+      And finally, <a href="redesign.html"> here </a>is the link to our beautiful final product &hearts;<br><br>
+    </p>
+  </div>
+
+  <!-- redesign observations-->
+  <div class="heading">
+    <b> redesign takeaways:</b>
+  </div>
+    <div class="summary">
+    <ul>
+      <li> The redesigned website is responsive i.e. adapts to the size of the browser and to different devices</li>
+      <li> Looks good when changing the font size of the browser</li>
+      <li>Website includes language attribute which allows screen readers to know which language to read it in</li> 
+      <li>Website has a grid structure which allows a screen reader to know in which order to read the contents</li> 
+      <li>Instead of having regions with big blocks of text, the redesigned website would link to pages with additional information e.g. the "events" image would link to a page containing information on upcoming events.</li>
+    </ul>
+  </div>
+
+  <!-- sources-->
+  <div class="heading" style="text-align: left">
+    <b> sources used in redesign process:</b>
+  </div>
+  <div class="summary">
+    <ul style="font-size:12px; line-height: 5px">
+      <li> https://wallpaperaccess.com/ballroom-dance</li>
+      <li> https://wallpaperaccess.com/tango </li>
+      <li>https://www.pinterest.com/pin/482800022532396783/?nic_v2=1a6tgb7ny </li>
+      <li>https://chorleywoodmagazine.co.uk/dancing-feet-copy-2/</li>
+      <li>https://www.iconfinder.com/icons/172458/down_arrow_icon</li>
+      <li>
+        https://duetdancestudio.com/blog-dance-lessons-chicago/2014/4/24/top-10-contemporary-first-dance-songs-of-2014-so-far
+      </li>
+      <li> https://ballroomdancesingapore.com/our-instructors/</li>
+      <li> https://www.pexels.com/search/gift/ </li>
+      <li> https://www.latangoacademy.com/tango-500</li>
+      <li> https://www.youtube.com/watch?v=pJpwGh1vlRA&ab_channel=MariusMutin</li>
+      <li> https://www.freepngimg.com/png/62600-and-icons-facebook-computer-messenger-black-white </li>
+      <li> https://www.stickpng.com/img/icons-logos-emojis/tech-companies/new-black-instagram-logo-2020</li>
+    </ul>
+  </div>
+
+
+</body>
+
+</html>

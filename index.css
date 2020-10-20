@@ -1,0 +1,77 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+} 
+
+.title {
+    text-align: center;
+    padding: 5%;
+    font-family: "Lato";
+    font-size: 45px;
+    color: teal;
+}
+
+.project-menu {
+    display: flex;
+    justify-content: center;
+
+}
+
+.subtitle {
+    text-align: center;
+    padding: 2%;
+    font-family: "Lato";
+    font-size: 30px;
+    color: teal;
+}
+
+.paragraph {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    font-family: "Lato";
+    font-size: 18px;
+    padding: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.heading {
+
+    display: flex;
+    justify-content: center;
+    font-family: "Lato";
+    font-size: 18px;
+    padding: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    margin: auto;
+    
+}
+
+.summary {
+    display: flex;
+    text-align: justify;
+    font-family: "Lato";
+    font-size: 16px;
+    padding: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+li {
+    margin: 20px;
+}
