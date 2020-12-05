@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta content="width=device-width, initial-scale=1" name="viewport" />
   <meta charset="utf-8">
 </head>
@@ -19,11 +21,18 @@
       <a class="navbar-brand">
         <h1>&hearts; </h1>
       </a>
-      <div class="collapse navbar-collapse">
+
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+        style="border: none;">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-          <li class="navbar-item"> my stuff </li>
-          <li class="navbar-item"> just me </li>
-          <li class="navbar-item"> resume </li>
+          <li class="navbar-item"> <a href="../home.html">projects </a></li>
+          <li class="navbar-item"> <a href="../about.html">about me </a></li>
+          <li class="navbar-item"> <a href="../fake-resume.pdf" target="_blank">resume </a></li>
         </ul>
       </div>
     </div>
@@ -38,7 +47,13 @@
   <div class="project-menu">
     <nav class="navbar navbar-expand-sm navbar-light text-info">
       <div class="container-fluid">
-        <div class="collapse navbar-collapse">
+
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#projectMenuContent"
+          aria-controls="projectMenuContent" aria-expanded="false" aria-label="Toggle navigation" style="border: none;">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="projectMenuContent">
           <ul class="navbar-nav ml-auto">
             <li class="navbar-item"> <a class="nav-link text-info" href="#context">context </a></li>
             <li class="navbar-item"> <a class="nav-link text-info" href="#usability-access">usability + accessibility
@@ -48,6 +63,7 @@
             <li class="navbar-item"> <a class="nav-link text-info" href="#style-guide">visual design style guide</a>
             </li>
             <li class="navbar-item"> <a class="nav-link text-info" href="#redesign">redesign</a></li>
+            <li class="navbar-item"> <a class="nav-link text-info" href="#conclusion">conclusion</a></li>
           </ul>
         </div>
       </div>
@@ -125,7 +141,7 @@
   </div>
   <div class="paragraph">
     <p>
-      First, I used balsamiq to create low-fidelity wireframes for a desktop, tablet, and mobile device. 
+      First, I used balsamiq to create low-fidelity wireframes for a desktop, tablet, and mobile device.
     </p>
   </div>
 
@@ -154,7 +170,7 @@
   </div>
   <div class="paragraph">
     <p>
-      Then, I used figma to create high-fidelity prototypes for a desktop, tablet, and mobile device. 
+      Then, I used figma to create high-fidelity prototypes for a desktop, tablet, and mobile device.
     </p>
   </div>
   <div class="heading">
@@ -200,15 +216,18 @@
   <div class="heading">
     <b> redesign takeaways:</b>
   </div>
-    <div class="summary">
+  <div class="summary">
     <ul>
       <li> The redesigned website is responsive i.e. adapts to the size of the browser and to different devices</li>
       <li> Looks good when changing the font size of the browser</li>
-      <li>Website includes language attribute which allows screen readers to know which language to read it in</li> 
-      <li>Website has a grid structure which allows a screen reader to know in which order to read the contents</li> 
-      <li>Instead of having regions with big blocks of text, the redesigned website would link to pages with additional information e.g. the "events" image would link to a page containing information on upcoming events.</li>
+      <li>Website includes language attribute which allows screen readers to know which language to read it in</li>
+      <li>Website has a grid structure which allows a screen reader to know in which order to read the contents</li>
+      <li>Instead of having regions with big blocks of text, the redesigned website would link to pages with additional
+        information e.g. the "events" image would link to a page containing information on upcoming events.</li>
     </ul>
   </div>
+
+  <div class="subtitle" id="conclusion">conclusion</div>
 
   <!-- sources-->
   <div class="heading" style="text-align: left">
@@ -232,6 +251,28 @@
       <li> https://www.stickpng.com/img/icons-logos-emojis/tech-companies/new-black-instagram-logo-2020</li>
     </ul>
   </div>
+
+  <footer class="myfooter">
+    <div class="copyright"> coded with &hearts; | anonymous</div>
+    <div class="social">
+      <a href=""><i class="fa fa-facebook"></i></a>
+      &nbsp;<a href=""><i class="fa fa-instagram"></i></a>
+      &nbsp;<a href=""><i class="fa fa-linkedin"></i></a></div>
+  </footer>
+
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+  <!-- Bootstrap tooltips --> 
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>  
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script> 
+  <!-- Bootstrap core JavaScript --> 
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script> 
+  <!-- MDB core JavaScript --> 
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
 
 
 </body>

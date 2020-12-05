@@ -75,3 +75,82 @@ body {
 li {
     margin: 20px;
 }
+
+nav .navbar-nav li a{
+    color: #20B2AA!important;
+}
+
+nav .navbar-brand{
+    color: #20B2AA!important;
+    padding-left: 1%;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    font-family: "Lato";
+    font-size: 20px; 
+    color: teal;
+    padding: 2%;
+}
+
+.myfooter {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    padding: 2%;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 7%;
+}
+
+i.fa {
+    display: inline-block;
+    border-radius: 60px;
+    padding: 0.5em 0.6em;
+    color: white;
+    background-color: #de6e4b;
+    width: 28px;
+    text-align: center;
+  
+  }
+
+@media only screen and (max-width: 450px) { /* mobile size */
+
+    img {
+        width: 300px;
+    }
+    
+    .title {
+        font-size: 30px;
+    }
+    
+    .subtitle {
+        font-size: 22px;
+    }
+    
+    .paragraph {
+        font-size: 14px;
+        
+    }
+    
+    .heading {
+        font-size: 14px;
+    
+    }
+    
+    .summary {
+        font-size: 12px;
+    
+    }
+    
+    }
